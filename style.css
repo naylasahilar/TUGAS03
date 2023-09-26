@@ -1,0 +1,77 @@
+a:link{
+    color: lightblue;
+}
+
+a:visited{
+    color: darkviolet;
+}
+
+a:hover{
+    color: grey;
+}
+
+a:active{
+    color: khaki;
+}
+
+.button{
+    border-radius: 5px;
+    border: none;
+    background-color: dodgerblue;
+    color: aquamarine;
+    text-align: center;
+    font-size: 28px;
+}
+
+.button:hover{
+    background-color: goldenrod;
+}
+
+.button:active{
+    background-color: lightseagreen;
+    box-shadow: 0 5px #666;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+table tr td:first-child {
+    width: 50px;
+}
+  
+table th, table td {
+    border-bottom: 1px solid white; /* Garis bawah dengan warna putih */
+    padding: 8px;
+}
+
+table th {
+    background-color: #333;
+    color: white;
+}
+  
+table thead td {
+    /* Gaya yang ingin Anda terapkan pada elemen <td> dalam <thead> */
+    background-color: lightblue; /* Contoh: latar belakang biru muda */
+    font-weight: bold;
+}
+  
+table tbody tr:nth-child(odd) {
+    background-color: #81CFE0; /* Warna latar belakang biru muda */
+    color: white; /* Warna teks putih */
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #81CFE0; /* Warna latar belakang biru muda */
+    color: white; /* Warna teks putih */
+}
+
+table tbody tr:hover {
+    background-color: #E08060; /* Warna latar belakang saat hover */
+    color: white; /* Warna teks saat hover */
+}
+  
+table, th, td {
+    border: 1px solid black;
+}
